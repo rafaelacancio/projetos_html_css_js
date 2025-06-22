@@ -1,0 +1,25 @@
+#topo{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+#menu{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.produtos{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+    color: rgb(129, 36, 8);
+    border: 1px solid #ccc;
+}
+#rodape{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+} 

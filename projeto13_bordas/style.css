@@ -1,0 +1,27 @@
+#bordas{
+    border: 5px dotted #ab0c0c;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+#menu{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.produtos{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+    color: rgb(129, 36, 8);
+    border: 10px groove #e52a68;
+}
+#rodape{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+    border: #70082b 5px double;
+} 
