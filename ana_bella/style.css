@@ -1,0 +1,67 @@
+body{
+    background-image: url(imagens/fundo.png);
+}
+#principal{
+    width: 100%;
+}
+#menu{
+    background: #c5c5b2;
+    padding: 18px;
+}
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+#conteudo{
+    background: #fff;
+    padding: 20px;  /* Adiciona preenchimento ao conteúdo */
+    margin: 20px; /* Adiciona margem ao conteúdo */
+    border-radius: 10px; /* Arredonda os cantos do conteúdo */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona sombra ao conteúdo */
+}
+#rodape{
+    text-align: center;
+    color: #4b566a;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #c5c5b2; /* Cor de fundo do rodapé */
+    position: relative; /* Permite posicionar o rodapé corretamente */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Garante que o rodapé ocup\\\\\\\\\\\\e toda a largura da página */
+}
+#foto_capa{
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+    margin: 20px; /* Adiciona margem ao conteúdo */
+}
+h1{
+    color: #4b566a; /* Cor do texto dos títulos */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte dos títulos */
+}
+.titulo_foto{
+    text-align: center; /* Centraliza o texto do título */
+    margin-top: 20px; /* Adiciona margem superior ao título */
+    color: #4b566a; /* Cor do texto do título */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte do título */
+}
+.foto1, .foto2, .foto3 {
+    margin: 0px 255px; /* Adiciona margem ao redor das fotos */
+    text-align: center; /* Centraliza as fotos */
+    border: 10px solid #aaaa9a; /* Borda ao redor das fotos */
+    border-radius: 10px; /* Arredonda os cantos das fotos */
+
+}
+p {
+    text-align: justify; /* Justifica o texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
+    color: #313438; /* Cor do texto */
+    margin: 20px; /* Adiciona margem ao redor do parágrafo */
+}
+#titulo_contacto {
+    text-align: center; /* Centraliza o título de contacto */
+    color: #4b566a; /* Cor do texto do título */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte do título */
+    margin-top: 20px; /* Adiciona margem superior ao título */
+}
