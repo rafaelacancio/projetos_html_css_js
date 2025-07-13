@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecBlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="logo">
+        <div>
+           <img class="logo_imagem" src="imagens/logo.png" alt="logo do TecBlog">
+        </div>
+    </section>
+        <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="celulares.html">Celulares</a>
+        <a href="informatica.html">Infromática</a>
+        <a href="eletronica.html">Eletrônicas</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+<!-- Abertura postagem -->
+    <div id="conteudo" style="margin-top: 20px; padding: 60px;">
+            <h1>Contactos</h1>
+            
+    <form action="enviar.php" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+    </div>
+
+    <div id="rodape" style="width: 960px; margin-left: 245px;">
+        <p>&copy; 2025 TecBlog. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
